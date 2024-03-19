@@ -33,8 +33,7 @@ app.use(express.json())
 app.use(cors());
 
 app.use("/users", require('./routes/user'))
-app.use("/diciplines", require('./routes/diciplines'))
-app.use("/events", require('./routes/events'))
+
 
 
 app.listen(app.get('PORT'), ()=>{
